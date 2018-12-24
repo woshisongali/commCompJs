@@ -1,2 +1,2 @@
-# commCompJs
-js vue
+# commonUse
+base component usual

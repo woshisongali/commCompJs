@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>to see the popper</title>
+</head>
+<body>
+  <h2 id="example10" tabindex="0">Popper on your side!</h2>
+  <p id="example10Title">
+      What are you waiting for? Select a popper from that dropdown.<br />
+      Placing poppers around elements is just that easy!
+  </p>
+
+  <div class="wrapper">
+    <div class="rel" id="example10reference1">
+        <p class="bold">Hey!</p>
+        <p class="thin">Choose where to put your popper!</p>
+        <select id="example10positionSelector">
+            <option value="top">Top</option>
+            <option value="right">Right</option>
+            <option value="bottom">Bottom</option>
+            <option value="left">Left</option>
+        </select>
+    </div>
+    
+    <div class="popper" width="200" id="example10popper1">
+        <p class="bold">Popper on <b id="example10currentPosition" class="currentPosition"></b></p>
+        <div class="popper__arrow" x-arrow></div>
+    </div>
+  
+  </div>
+
+  <div><span id="clearEvent">clearEvent</span></div>
+</body>
+</html>
